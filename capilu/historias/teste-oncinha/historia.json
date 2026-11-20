@@ -1,0 +1,22 @@
+{
+ "slug": "teste-oncinha",
+ "title": "A Capilu conhece o Pipo",
+ "background": "fundo.png",
+ "ground_y": 965,
+ "cast": {
+  "capilu": {"puppet": "capilu", "voice_ref": "refs/voz_feminina.wav", "pitch": 3, "exaggeration": 0.75, "height": 560},
+  "pipo": {"puppet": "pipo", "voice_ref": "refs/voz_masculina.wav", "pitch": 5, "exaggeration": 0.8, "height": 500}
+ },
+ "beats": [
+  {"wait": 2.8, "logo": true, "sfx": "jingle", "do": [{"who": "capilu", "act": "enter", "from": "left", "to": 760, "dur": 2.2}]},
+  {"who": "capilu", "say": "Oi, amiguinhos! Eu sou a Capilu!", "tts": "Oi, amiguinhos! Eu sou a Capilú!", "do": [{"who": "capilu", "act": "hop", "n": 2}]},
+  {"who": "capilu", "say": "Ué... que barulhinho é esse?", "gap": 0.2},
+  {"wait": 2.0, "sfx": "boing", "do": [{"who": "pipo", "act": "enter", "from": "right", "to": 1290, "dur": 1.7}, {"who": "capilu", "act": "move", "to": 640, "dur": 1.2}]},
+  {"who": "pipo", "say": "Oi! Eu sou o Pipo, o filhote de onça!", "do": [{"who": "pipo", "act": "hop", "n": 1}]},
+  {"who": "capilu", "say": "Uau, uma oncinha! Você quer brincar comigo?", "do": [{"who": "capilu", "act": "hop", "n": 1}]},
+  {"who": "pipo", "say": "Quero sim! Vamos apostar corrida até o rio?"},
+  {"who": "capilu", "say": "Vamos! Um, dois, três, e já!", "tts": "Vamos! Um, dois, três... e já!", "gap": 0.1},
+  {"wait": 2.4, "do": [{"who": "capilu", "act": "exit", "to": "right", "dur": 2.0}, {"who": "pipo", "act": "exit", "to": "right", "dur": 1.5}]},
+  {"wait": 2.8, "logo": true, "sfx": "ding"}
+ ]
+}
