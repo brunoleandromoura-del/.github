@@ -1,0 +1,370 @@
+{
+ "slug": "ep01-cores",
+ "title": "As Cores com a Capilu",
+ "voice": "pf_dora",
+ "speed": 0.88,
+ "lines": [
+  {
+   "say": "Capilu! A capivarinha curiosa!",
+   "cue": {
+    "type": "title"
+   },
+   "sfx": "jingle",
+   "delay": 1.6,
+   "gap": 1.0
+  },
+  {
+   "say": "Oi, amiguinho! Oi, amiguinha! Eu sou a Capilu!",
+   "cue": {
+    "type": "greet"
+   },
+   "gap": 0.5
+  },
+  {
+   "say": "E este é o Tico, meu amigo passarinho.",
+   "cue": {
+    "type": "tico"
+   },
+   "sfx": "chirp",
+   "sfxAt": "end",
+   "gap": 1.1
+  },
+  {
+   "say": "Hoje, nós vamos descobrir as cores! Vem comigo?",
+   "cue": {
+    "type": "plain"
+   },
+   "gap": 0.8
+  },
+  {
+   "say": "Olha só o que eu encontrei! Uma maçã!",
+   "cue": {
+    "type": "item",
+    "id": "apple"
+   },
+   "sfx": "pop",
+   "gap": 0.5
+  },
+  {
+   "say": "De que cor é a maçã?",
+   "cue": {
+    "type": "ask"
+   },
+   "gap": 3.0
+  },
+  {
+   "say": "Vermelho! A maçã é vermelha!",
+   "cue": {
+    "type": "reveal",
+    "word": "VERMELHO",
+    "color": "#E53935"
+   },
+   "sfx": "ding",
+   "gap": 0.6
+  },
+  {
+   "say": "O morango também é vermelho. Que delícia!",
+   "cue": {
+    "type": "also",
+    "id": "strawberry"
+   },
+   "sfx": "pop",
+   "gap": 1.0
+  },
+  {
+   "say": "Olha lá no céu! É o sol!",
+   "cue": {
+    "type": "item",
+    "id": "sun"
+   },
+   "sfx": "pop",
+   "gap": 0.5
+  },
+  {
+   "say": "De que cor é o sol?",
+   "cue": {
+    "type": "ask"
+   },
+   "gap": 3.0
+  },
+  {
+   "say": "Amarelo! O sol é amarelo!",
+   "cue": {
+    "type": "reveal",
+    "word": "AMARELO",
+    "color": "#F2A900"
+   },
+   "sfx": "ding",
+   "gap": 0.6
+  },
+  {
+   "say": "A banana também é amarela.",
+   "cue": {
+    "type": "also",
+    "id": "banana"
+   },
+   "sfx": "pop",
+   "gap": 1.0
+  },
+  {
+   "say": "Uau! Uma borboleta!",
+   "cue": {
+    "type": "item",
+    "id": "butterfly"
+   },
+   "sfx": "pop",
+   "gap": 0.5
+  },
+  {
+   "say": "De que cor é a borboleta?",
+   "cue": {
+    "type": "ask"
+   },
+   "gap": 3.0
+  },
+  {
+   "say": "Azul! A borboleta é azul!",
+   "cue": {
+    "type": "reveal",
+    "word": "AZUL",
+    "color": "#2979FF"
+   },
+   "sfx": "ding",
+   "gap": 0.6
+  },
+  {
+   "say": "O céu também é azul.",
+   "cue": {
+    "type": "also",
+    "id": "sky"
+   },
+   "sfx": "pop",
+   "gap": 1.0
+  },
+  {
+   "say": "Pula, pula! É um sapinho!",
+   "cue": {
+    "type": "item",
+    "id": "frog"
+   },
+   "sfx": "boing",
+   "gap": 0.5
+  },
+  {
+   "say": "De que cor é o sapinho?",
+   "cue": {
+    "type": "ask"
+   },
+   "gap": 3.0
+  },
+  {
+   "say": "Verde! O sapinho é verde!",
+   "cue": {
+    "type": "reveal",
+    "word": "VERDE",
+    "color": "#2E9E4F"
+   },
+   "sfx": "ding",
+   "gap": 0.6
+  },
+  {
+   "say": "A folha também é verde.",
+   "cue": {
+    "type": "also",
+    "id": "leaf"
+   },
+   "sfx": "pop",
+   "gap": 1.0
+  },
+  {
+   "say": "Hum, que cheirinho bom! É uma laranja!",
+   "cue": {
+    "type": "item",
+    "id": "orange"
+   },
+   "sfx": "pop",
+   "gap": 0.5
+  },
+  {
+   "say": "De que cor é a laranja?",
+   "cue": {
+    "type": "ask"
+   },
+   "gap": 3.0
+  },
+  {
+   "say": "Laranja! A laranja é cor de laranja!",
+   "cue": {
+    "type": "reveal",
+    "word": "LARANJA",
+    "color": "#F57C00"
+   },
+   "sfx": "ding",
+   "gap": 0.6
+  },
+  {
+   "say": "A cenoura também é laranja. Croc, croc!",
+   "cue": {
+    "type": "also",
+    "id": "carrot"
+   },
+   "sfx": "pop",
+   "gap": 1.0
+  },
+  {
+   "say": "Olha quantas bolinhas! É um cacho de uvas!",
+   "cue": {
+    "type": "item",
+    "id": "grapes"
+   },
+   "sfx": "pop",
+   "gap": 0.5
+  },
+  {
+   "say": "De que cor é a uva?",
+   "cue": {
+    "type": "ask"
+   },
+   "gap": 3.0
+  },
+  {
+   "say": "Roxo! A uva é roxa!",
+   "cue": {
+    "type": "reveal",
+    "word": "ROXO",
+    "color": "#8E24AA"
+   },
+   "sfx": "ding",
+   "gap": 0.6
+  },
+  {
+   "say": "A florzinha também é roxa. Que linda!",
+   "cue": {
+    "type": "also",
+    "id": "violet"
+   },
+   "sfx": "pop",
+   "gap": 1.0
+  },
+  {
+   "say": "Vamos lembrar juntos?",
+   "cue": {
+    "type": "recap",
+    "items": [
+     {
+      "id": "apple",
+      "word": "VERMELHO",
+      "color": "#E53935"
+     },
+     {
+      "id": "sun",
+      "word": "AMARELO",
+      "color": "#F2A900"
+     },
+     {
+      "id": "butterfly",
+      "word": "AZUL",
+      "color": "#2979FF"
+     },
+     {
+      "id": "frog",
+      "word": "VERDE",
+      "color": "#2E9E4F"
+     },
+     {
+      "id": "orange",
+      "word": "LARANJA",
+      "color": "#F57C00"
+     },
+     {
+      "id": "grapes",
+      "word": "ROXO",
+      "color": "#8E24AA"
+     }
+    ]
+   },
+   "gap": 0.6
+  },
+  {
+   "say": "Vermelho!",
+   "cue": {
+    "type": "hit",
+    "i": 0
+   },
+   "sfx": "pop",
+   "gap": 0.7
+  },
+  {
+   "say": "Amarelo!",
+   "cue": {
+    "type": "hit",
+    "i": 1
+   },
+   "sfx": "pop",
+   "gap": 0.7
+  },
+  {
+   "say": "Azul!",
+   "cue": {
+    "type": "hit",
+    "i": 2
+   },
+   "sfx": "pop",
+   "gap": 0.7
+  },
+  {
+   "say": "Verde!",
+   "cue": {
+    "type": "hit",
+    "i": 3
+   },
+   "sfx": "pop",
+   "gap": 0.7
+  },
+  {
+   "say": "Laranja!",
+   "cue": {
+    "type": "hit",
+    "i": 4
+   },
+   "sfx": "pop",
+   "gap": 0.7
+  },
+  {
+   "say": "Roxo!",
+   "cue": {
+    "type": "hit",
+    "i": 5
+   },
+   "sfx": "pop",
+   "gap": 0.7
+  },
+  {
+   "say": "Muito bem! Você aprendeu seis cores!",
+   "cue": {
+    "type": "cheer"
+   },
+   "sfx": "ding",
+   "gap": 0.9
+  },
+  {
+   "say": "Agora é a sua vez! Procure alguma coisa vermelha aí na sua casa.",
+   "cue": {
+    "type": "challenge",
+    "text": "SUA VEZ!",
+    "color": "#E53935",
+    "id": "apple"
+   },
+   "gap": 1.2
+  },
+  {
+   "say": "Eu adorei brincar com você! Até a próxima aventura! Tchau, tchau!",
+   "cue": {
+    "type": "bye"
+   },
+   "sfx": "chirp",
+   "sfxAt": "end",
+   "gap": 2.2
+  }
+ ]
+}
