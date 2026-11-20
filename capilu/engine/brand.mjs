@@ -16,6 +16,7 @@ async function shot(file, w, h, build, arg, transparent = false) {
   const page = await browser.newPage({ viewport: { width: w, height: h }, deviceScaleFactor: 1 });
   await page.goto(pathToFileURL(path.join(here, 'stage.html')).href);
   await page.addStyleTag({ content: FONT_CSS + (transparent ? 'html,body{background:transparent!important}' : '') });
+  if (transparent) await page.evaluate(() => { document.documentElement.style.background = 'transparent'; document.body.style.background = 'transparent'; });
   await page.evaluate(async ([w, h, fn, arg]) => {
     await document.fonts.load('800 100px "Baloo 2"'); await document.fonts.ready;
     const svg = document.getElementById('stage');
@@ -59,9 +60,9 @@ if (process.argv[2] === 'thumb') {
     ${tagline(1420, 850, 78)}
     <text x="1420" y="925" text-anchor="middle" font-family="'Baloo 2'" font-weight="700" font-size="46" fill="#fff" stroke="#2B2D42" stroke-width="9" stroke-linejoin="round" paint-order="stroke">Vídeo novo toda semana • Aprender brincando</text>`);
   // Logo com fundo transparente
-  await shot(path.join(brandDir, 'logo.png'), 1100, 420, () => `${logo(550, 250, 1.1)}${tagline(550, 370, 64)}`, true);
+  await shot(path.join(brandDir, 'logo.png'), 1100, 420, () => `${logo(550, 250, 1.1)}${tagline(550, 370, 64)}`, null, true);
   // Marca d'água do vídeo 150x150
-  await shot(path.join(brandDir, 'marca-dagua-150.png'), 150, 150, () => `<circle cx="75" cy="75" r="72" fill="#FFC93C"/><g transform="translate(75,186) scale(.23)">${capilu({ t: 0.4, bird: false })}</g>`, true);
+  await shot(path.join(brandDir, 'marca-dagua-150.png'), 150, 150, () => `<circle cx="75" cy="75" r="72" fill="#FFC93C"/><g transform="translate(75,186) scale(.23)">${capilu({ t: 0.4, bird: false })}</g>`, null, true);
   // Paleta
   await shot(path.join(brandDir, 'paleta.png'), 1400, 360, () => {
     const c = [['#C07F3F', 'Capilu'], ['#FFC93C', 'Sol'], ['#FF6B6B', 'Coral'], ['#6BCB77', 'Folha'], ['#2EC4B6', 'Rio'], ['#4D96FF', 'Céu'], ['#2B2D42', 'Tinta'], ['#FFF6E5', 'Creme']];
