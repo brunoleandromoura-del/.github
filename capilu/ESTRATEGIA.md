@@ -74,7 +74,13 @@ Pontos que limitam o ganho em canal infantil:
 
 Fontes de renda além dos anúncios (quando houver audiência): YouTube Premium (paga também em vídeo infantil), licenciamento do personagem, atividades para imprimir vendidas a pais e escolas.
 
-## 6. Publicação
+## 6. Como compensar a receita baixa por visualização
+
+- **Três idiomas com a mesma animação:** lançar em português e, a partir do episódio 4, redublar cada vídeo em espanhol e inglês (canais irmãos ou faixas de áudio). O roteiro é um arquivo de texto e a animação é a mesma, então o custo extra é mínimo. O inglês paga mais por visualização.
+- **Compilações de 15 a 30 minutos** todo mês.
+- **Renda fora dos anúncios** quando houver audiência: atividades para imprimir e licenciamento da personagem.
+
+## 7. Publicação
 
 Em cada pasta `episodes/<ep>/` há um `metadata.md` com título, descrição, tags e configurações. Arquivos finais em `videos/`.
 
@@ -86,7 +92,7 @@ Configuração de todo vídeo:
 - Conteúdo alterado/sintético: **Não** (animação claramente não realista não exige declaração; se o formulário perguntar sobre voz sintética, responder com a verdade)
 - Playlist: a série do episódio
 
-## 7. O que depende do dono do canal
+## 8. O que depende do dono do canal
 
 Estas etapas exigem a conta e os documentos de um adulto e não podem ser feitas por IA:
 

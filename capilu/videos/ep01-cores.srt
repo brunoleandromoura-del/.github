@@ -1,0 +1,152 @@
+1
+00:00:01,600 --> 00:00:03,963
+Capilu! A capivarinha curiosa!
+
+2
+00:00:04,763 --> 00:00:07,660
+Oi, amiguinho! Oi, amiguinha! Eu sou a Capilu!
+
+3
+00:00:07,960 --> 00:00:10,707
+E este é o Tico, meu amigo passarinho.
+
+4
+00:00:11,607 --> 00:00:14,912
+Hoje, nós vamos descobrir as cores! Vem comigo?
+
+5
+00:00:15,512 --> 00:00:17,897
+Olha só o que eu encontrei! Uma maçã!
+
+6
+00:00:18,197 --> 00:00:19,945
+De que cor é a maçã?
+
+7
+00:00:22,745 --> 00:00:24,896
+Vermelho! A maçã é vermelha!
+
+8
+00:00:25,296 --> 00:00:28,065
+O morango também é vermelho. Que delícia!
+
+9
+00:00:28,865 --> 00:00:30,726
+Olha lá no céu! É o sol!
+
+10
+00:00:31,026 --> 00:00:32,710
+De que cor é o sol?
+
+11
+00:00:35,510 --> 00:00:37,369
+Amarelo! O sol é amarelo!
+
+12
+00:00:37,769 --> 00:00:39,962
+A banana também é amarela.
+
+13
+00:00:40,762 --> 00:00:42,487
+Uau! Uma borboleta!
+
+14
+00:00:42,787 --> 00:00:44,917
+De que cor é a borboleta?
+
+15
+00:00:47,717 --> 00:00:49,803
+Azul! A borboleta é azul!
+
+16
+00:00:50,203 --> 00:00:52,182
+O céu também é azul.
+
+17
+00:00:52,982 --> 00:00:54,893
+Pula, pula! É um sapinho!
+
+18
+00:00:55,193 --> 00:00:57,088
+De que cor é o sapinho?
+
+19
+00:00:59,888 --> 00:01:01,974
+Verde! O sapinho é verde!
+
+20
+00:01:02,374 --> 00:01:04,375
+A folha também é verde.
+
+21
+00:01:05,175 --> 00:01:07,604
+Hum, que cheirinho bom! É uma laranja!
+
+22
+00:01:07,904 --> 00:01:09,802
+De que cor é a laranja?
+
+23
+00:01:12,602 --> 00:01:15,292
+Laranja! A laranja é cor de laranja!
+
+24
+00:01:15,692 --> 00:01:18,695
+A cenoura também é laranja. Croc, croc!
+
+25
+00:01:19,495 --> 00:01:22,477
+Olha quantas bolinhas! É um cacho de uvas!
+
+26
+00:01:22,777 --> 00:01:24,566
+De que cor é a uva?
+
+27
+00:01:27,366 --> 00:01:29,281
+Roxo! A uva é roxa!
+
+28
+00:01:29,681 --> 00:01:32,344
+A florzinha também é roxa. Que linda!
+
+29
+00:01:33,144 --> 00:01:34,954
+Vamos lembrar juntos?
+
+30
+00:01:35,354 --> 00:01:36,420
+Vermelho!
+
+31
+00:01:36,920 --> 00:01:37,964
+Amarelo!
+
+32
+00:01:38,464 --> 00:01:39,380
+Azul!
+
+33
+00:01:39,880 --> 00:01:40,903
+Verde!
+
+34
+00:01:41,403 --> 00:01:42,553
+Laranja!
+
+35
+00:01:43,053 --> 00:01:43,992
+Roxo!
+
+36
+00:01:44,492 --> 00:01:47,197
+Muito bem! Você aprendeu seis cores!
+
+37
+00:01:47,897 --> 00:01:52,321
+Agora é a sua vez! Procure alguma coisa vermelha aí na sua casa.
+
+38
+00:01:53,321 --> 00:01:57,549
+Eu adorei brincar com você! Até a próxima aventura! Tchau, tchau!
+

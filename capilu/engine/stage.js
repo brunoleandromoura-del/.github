@@ -107,7 +107,7 @@ function frame(t) {
         const k = easeBack((t - h) / 0.45);
         fg += `<circle cx="${x}" cy="${y}" r="${R}" fill="${it.color}" opacity=".22"/>`;
         fg += `<g transform="translate(${x},${y + Math.sin(t * 2.4 + i) * 8}) scale(${k * 0.72 * q})">${prop(it.id, t)}</g>`;
-        fg += word(it.word, it.color, x, y + R + 90, 60 * Math.min(1, q * 1.25), (t - h) / 0.45);
+        fg += word(it.word, it.color, x, y + R + 75, Math.min(60, sp * 0.18), (t - h) / 0.45);
       } else {
         fg += `<text x="${x}" y="${y + 50 * q}" text-anchor="middle" font-family="'Baloo 2'" font-weight="800" font-size="${160 * q}" fill="#FF8A3D" opacity="${0.5 * mk}">?</text>`;
       }
